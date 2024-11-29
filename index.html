@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+    </head>
+
+    <body>
+        <header>
+            <div class="container sticky-top  mt-4 ">
+
+                <!-- Navbar -->
+                <nav class="navbar navbar-expand-lg navbar-light  shadow py-2 glass-effect ">
+                    
+                  
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png " style="width: 50px;height: 50px;" alt="Pinterest Logo">
+                 
+                    <!-- logo pintrest -->
+            
+            
+                    <div class="btns">
+                      <button type="button" class="btn btn-danger btn1" style="border-radius: 40px;"><a href="./pinterest.html" style="color: rgb(252, 254, 255); text-decoration: none;">Home</button></a>
+                      <button type="button" class="btn btn-secondary" style="border-radius: 40px;"> <a href="./create.html" style="color: rgb(252, 254, 255); text-decoration: none;">Create</button></a>
+                    </div>
+            
+                    <!-- Toggle button  -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                      aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+            
+                    <!-- Navbar content -->
+                    <div class="collapse navbar-collapse" id="navbarContent">
+            
+                      <!-- Search Bar -->
+                      <form action="search.html" method="get" class="d-flex mx-auto w-50">
+                        <input class="form-control me-2" type="search" name="query" placeholder="Search here..."
+                          aria-label="Search">
+                        <button class="btn btn-danger btn1" style="border-radius: 40px;" type="submit"><a href="./search.html" style="color: rgb(252, 254, 255); text-decoration: none;">Search</button></a>
+                      </form>
+            
+                      <!-- icons -->
+                      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#"><i class="bi bi-bell"></i> Notifications</a>
+                          
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#"><i class="bi bi-envelope"></i> Messages</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="profile.html"><i class="bi bi-person-circle"></i>Profile</a>
+                        </li>
+                      </ul>
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                          aria-expanded="false">
+            
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                          <ul class="navbar-nav">
+                            <!-- Dropdown -->
+                            <li class="nav-item dropdown">
+                              
+                              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li>
+                                  <h6 class="dropdown-header" style="font-size: large;">Currently in</h6>
+                                </li>
+                                <li>
+                                  <div class="d-flex align-items-center px-3">
+                                    <div
+                                      class="rounded-circle bg-secondary text-white d-flex align-items-center justify-content-center"
+                                      style="width: 40px; height: 40px;">TS</div>
+                                    <div class="ms-2">
+                                      <p class="mb-0 fw-bold  " style="font-size: large;">Tanzila Sultana</p>
+                                      <p class="mb-0 text-muted small">sultana033@gmail.com</p>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li>
+                                  <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item py-3 " href="#">Add Pinterest account</a></li>
+                                <li><a class="dropdown-item py-3" href="#">Convert to business</a></li>
+                                <li>
+                                  <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item py-3" href="#">Settings</a></li>
+                                <li><a class="dropdown-item py-3" href="#">Home feed tuner</a></li>
+                                <li>
+                                  <div class="dropdown-item text-muted small py-2">You can now link your Instagram and other external
+                                    accounts to Pinterest.</div>
+                                </li>
+                                <li><a class="dropdown-item py-3" href="#">Claim external accounts</a></li>
+                                <li><a class="dropdown-item py-3" href="#">Install the Windows app</a></li>
+                                <li><a class="dropdown-item py-3" href="#">Logout</a></li>
+                              </ul>
+                            </li>
+                          </ul>
+                        
+            
+                      </div>
+                    </div>
+                  </div>
+            
+                </nav>
+            
+        </header>
+        <main>
+
+           
+  
+    
+ <style>
+
+  /* Main CSS */
+  .grid-wrapper > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-wrapper > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .grid-wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;
+  }
+  .grid-wrapper .wide {
+    grid-column: span 2;
+  }
+  .grid-wrapper .tall {
+    grid-row: span 2;
+  }
+  .grid-wrapper .big {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+  
+  </style>
+   <div class="container overflow-hidden py-6">
+     <div class="grid-wrapper col">
+       <div class="lc-block">
+         <img class="img-fluid rounded rounded" src="https://images.unsplash.com/photo-1541845157-a6d2d100c931?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80" alt="" loading="lazy">
+       </div>
+       <div class="lc-block">
+         <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1588282322673-c31965a75c3e?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1351&amp;q=80" alt="" loading="lazy">
+       </div>
+       <div class="tall lc-block">
+         <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1588117472013-59bb13edafec?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" alt="" loading="lazy">
+       </div>
+       <div class="wide lc-block">
+         <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1587588354456-ae376af71a25?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80" alt="" loading="lazy">
+       </div>
+       <div class="lc-block">
+         <img class="img-fluid rounded" src=" https://images.unsplash.com/photo-1558980663-3685c1d673c4?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=60" alt="" loading="lazy">
+       </div>
+       <div class="tall lc-block">
+         <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1588499756884-d72584d84df5?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=2134&amp;q=80" alt="" loading="lazy">
+       </div>
+       <div class="big lc-block">
+         <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1588492885706-b8917f06df77?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1951&amp;q=80" alt="" loading="lazy">
+       </div>
+       <div class="lc-block">
+         <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1588247866001-68fa8c438dd7?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=564&amp;q=80" alt="" loading="lazy">
+       </div>
+       <div class="wide lc-block">
+         <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1586521995568-39abaa0c2311?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80" alt="" loading="lazy">
+       </div>
+       <div class="big lc-block">
+         <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1572914857229-37bf6ee8101c?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1951&amp;q=80" alt="" loading="lazy">
+       </div>
+       <div class="tall lc-block">
+         <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1588453862014-cd1a9ad06a12?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80" alt="" loading="lazy">
+       </div>
+       <div class="lc-block">
+         <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1588414734732-660b07304ddb?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=675&amp;q=80" alt="" loading="lazy">
+       </div>
+       <div class="lc-block">
+         <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1588224575346-501f5880ef29?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="" loading="lazy">
+       </div>
+       <div class="lc-block">
+         <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1574798834926-b39501d8eda2?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="" loading="lazy">
+       </div>
+       <div class="lc-block">
+         <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1547234935-80c7145ec969?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1353&amp;q=80" alt="" loading="lazy">
+       </div>
+       <div class="wide lc-block">
+         <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1588263823647-ce3546d42bfe?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=675&amp;q=80" alt="" loading="lazy">
+       </div>
+       <div class="lc-block">
+         <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1587732608058-5ccfedd3ea63?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80" alt="" loading="lazy">
+       </div>
+       <div class="lc-block">
+         <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1587897773780-fe72528d5081?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1489&amp;q=80" alt="" loading="lazy">
+       </div>
+       <div class="wide lc-block">
+         <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1588083949404-c4f1ed1323b3?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1489&amp;q=80" alt="" loading="lazy">
+       </div>
+       <div class="lc-block">
+         <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1587572236558-a3751c6d42c0?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80" alt="" loading="lazy">
+       </div>
+       <div class="wide lc-block">
+         <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1583542225715-473a32c9b0ef?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80" alt="" loading="lazy">
+       </div>
+       <div class="big lc-block">
+         <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1527928159272-7d012024eb74?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80" alt="" loading="lazy">
+       </div>
+       <div class="lc-block">
+         <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1553984840-b8cbc34f5215?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80" alt="" loading="lazy">
+       </div>
+       <div class="lc-block">
+         <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1433446787703-42d5bf446876?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1351&amp;q=80" alt="" loading="lazy">
+       </div>
+       <div class="big lc-block">
+         <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1541187714594-731deadcd16a?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="" loading="lazy">
+       </div>
+       <div class="tall lc-block">
+         <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80" alt="" loading="lazy">
+       </div>
+       <div class="tall lc-block">
+         <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1600022149576-bfd4c8ac59b5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8NHx8bW91dGFpbnxlbnwwfDF8fHwxNjUwMDQxNjMy&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1080" alt="Photo by Wei Zeng" loading="lazy" srcset="https://images.unsplash.com/photo-1600022149576-bfd4c8ac59b5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8NHx8bW91dGFpbnxlbnwwfDF8fHwxNjUwMDQxNjMy&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1080 1080w, https://images.unsplash.com/photo-1600022149576-bfd4c8ac59b5??crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8NHx8bW91dGFpbnxlbnwwfDF8fHwxNjUwMDQxNjMy&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=150 150w, https://images.unsplash.com/photo-1600022149576-bfd4c8ac59b5??crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8NHx8bW91dGFpbnxlbnwwfDF8fHwxNjUwMDQxNjMy&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=300 300w, https://images.unsplash.com/photo-1600022149576-bfd4c8ac59b5??crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8NHx8bW91dGFpbnxlbnwwfDF8fHwxNjUwMDQxNjMy&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=768 768w, https://images.unsplash.com/photo-1600022149576-bfd4c8ac59b5??crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8NHx8bW91dGFpbnxlbnwwfDF8fHwxNjUwMDQxNjMy&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1024 1024w" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="">
+       </div>
+       <div class="lc-block">
+         <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1421930866250-aa0594cea05c?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1355&amp;q=80" alt="" loading="lazy">
+       </div>
+       <div class="lc-block">
+         <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1493306454986-c8877a09cbeb?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1381&amp;q=80" alt="" loading="lazy">
+       </div>
+       <div class="wide lc-block">
+         <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1536466528142-f752ae7bdd0c?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80" alt="" loading="lazy">
+       </div>
+       <div class="wide lc-block">
+         <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1476231682828-37e571bc172f?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8Nnx8Zm9yZXN0fGVufDB8MHx8fDE2NTAwMTk4MjU&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1080&amp;h=768" alt="Photo by Geran de Klerk" loading="lazy" srcset="https://images.unsplash.com/photo-1476231682828-37e571bc172f?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8Nnx8Zm9yZXN0fGVufDB8MHx8fDE2NTAwMTk4MjU&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1080&amp;h=768 1080w, https://images.unsplash.com/photo-1476231682828-37e571bc172f??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8Nnx8Zm9yZXN0fGVufDB8MHx8fDE2NTAwMTk4MjU&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=150 150w, https://images.unsplash.com/photo-1476231682828-37e571bc172f??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8Nnx8Zm9yZXN0fGVufDB8MHx8fDE2NTAwMTk4MjU&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=300 300w, https://images.unsplash.com/photo-1476231682828-37e571bc172f??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8Nnx8Zm9yZXN0fGVufDB8MHx8fDE2NTAwMTk4MjU&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=768 768w, https://images.unsplash.com/photo-1476231682828-37e571bc172f??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8Nnx8Zm9yZXN0fGVufDB8MHx8fDE2NTAwMTk4MjU&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1024 1024w" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="768">
+       </div>
+     </div>
+  
+  
+  
+   </div>
+   
+   
+    
+        </main>
+        <footer>
+          <p style="text-align: center; background: whitesmoke;">
+           
+            © 2024 Tanzila Sultana | Privacy Policy
+          </p>
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
